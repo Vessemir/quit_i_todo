@@ -1,0 +1,56 @@
+.interface{
+    background-color: #5893;
+    width: 30%;
+    /* height: 50px; */
+    /* background-color: red; */
+    /* Center horizontally*/
+    margin: 0 auto;
+}
+.body{
+    background-color: brown;
+    width: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    align-items: center;
+    padding: 20px;
+}
+h1{
+    /* background-color: coral; */
+    text-align: center;
+    
+    left: 50%;
+}
+li{
+    background-color: rgba(46, 142, 172, .3);
+    margin-top: 5px;
+    color: #fff;
+    padding: 4px;
+
+}
+
+.del-item{
+    float: right;
+    height: 70%;
+    width: 30px;
+}
+.addItemCont{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: darkgreen;
+    visibility: hidden;
+   
+}
+.addItems{
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding: 30px;
+
+}
+
+.cancelTask{
+    float: right;
+}
