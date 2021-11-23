@@ -13,12 +13,37 @@
 <body>
     
 <div class="container">
+    <div class="timer"></div>
 
 <h1>QUIZ</h1>
+<p class="questionCont">Pytanie nr <span class='questionNumber'>N</span>: <span class='questionText'>Czy jesteś zjebem?</span></p>
 
+<div class="answerCont">
+    <div class="answerRow">
+    
+        <div class="answer1 answer" data-key=1>Odpowiedź 1</div>
+        <div class="answer2 answer" data-key=2>Odpowiedź 2</div>
+    </div>
+
+    <div class="answerRow">
+        <div class="answer3 answer" data-key=3>Odpowiedź 3</div>
+        <div class="answer4 answer" data-key=4>Odpowiedź 4</div>
+    </div>
+</div>
+<div class="statsCont">
+    <h2>Statystyki</h2>
+    <p>Dobrych odpowiedzi: <span class="statsCorrect"></span></p>
+    <p>Złych odpowiedzi: <span class="statsWrong"></span></p>
+    <p>Pytań do końca: <span class="questionNumber"></span>/ <span class='questtionsLeft'></span></p>
+</div>
 
 </div>
 
+
+<script src="Statistics.js"></script>
+    <script src="Questions.js"></script>
     <script src="main.js"></script>
+    <script src="Timer.js"></script>
+    <script src="Game.js"></script>
 </body>
 </html>

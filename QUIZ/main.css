@@ -5,14 +5,65 @@ box-sizing: border-box;}
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+color: white;
+    
 }
 h1{
     text-align: center;
+    padding: 10px;
 }
 .container{
-    background-color: blueviolet;
+    background-color: rgba(255, 255, 255, 0.2);
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
 
+.questionText{
+    font-weight: bold;
+}
+.questionCont{
+    text-align: center;
+    padding: 10px;
+
+}
+.answerCont{
+    padding: 20px;
+    /* background-color: brown; */
+}
+.answer{
+    border: solid;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+.answerRow{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+}
+.statsCont{
+    margin: 20px 0px 0px 40px;
+}
+
+.wrongRespond{
+    border-color: rgb(245, 96, 96);
+}
+
+.correctRespond{
+    border-color: rgb(135, 248, 69);
+}
+
+.timer{
+    height: 20px;
+    /* width: 50%; */
+    background-color: cornflowerblue;
 }
